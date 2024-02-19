@@ -2,7 +2,7 @@ Storykit Lua Test
 =====
 
 Assignment:
-* Use the variable lang_id to find the corresponding sentences within the table "input".
+* Use the variable lang_id to find the corresponding sentences within the table "input" that you can find in the file **lua_case.lua in this repository**.
 * Create a keyed table named output with the keys from the input table and where the content of each key
 has the correct string stored as [value] and the id as [text_id].
 
@@ -53,4 +53,13 @@ Example:
 
 Optional tasks:
 * Pick the languange "lorem" if lang_id is missing or language doesn't exist.
-* If the text is longer than 20 characters, create a key in output[text] called "shortened_text" and set the value to the first 17 characters of the text and with "..." at the end. Eg: "Donec iaculis fac..."
+* If the text is longer than 20 characters, create a key in output[text] called "shortened_text" and set the value to the first 17 characters of the text and with "..." at the end.
+
+Example
+
+        local output = {
+            greeting = {
+                value = "Donec iaculis facilisis: Jan 1 1970.",
+                shortened_text = "Donec iaculis fac...",
+                text_id = 1
+            },
