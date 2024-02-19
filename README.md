@@ -1,8 +1,10 @@
 Storykit Lua Test
 =====
 
+Open the file lua_case.lua that you can find in this repository.
+
 Assignment:
-* Use the variable lang_id to find the corresponding sentences within the table "input" that you can find in the file **lua_case.lua in this repository**.
+* Use the variable lang_id to find the corresponding sentences within the table "input".
 * Create a keyed table named output with the keys from the input table and where the content of each key
 has the correct string stored as [value] and the id as [text_id].
 
